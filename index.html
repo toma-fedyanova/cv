@@ -1,12 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">	
+    <link rel="icon" href="assets/img/pngegg(1).ico">
+    <title>CV</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class = "nav__list">
+          <li><a href = "#contacts" class = "nav">Contacts</a></li>
+          <li><a href = "#about" class = "nav">About me</a></li>
+          <li><a href = "#skills__hard" class = "nav">Skills</a></li>
+          <li><a href = "#works" class = "nav">My work</a></li>
+          <li><a href = "#education" class = "nav">Education</a></li>
+        </ul>
+       </nav>
+    </header>
+    <main>
+      <section class = "about-me">
+       <div>
+         <h1>Tamara Fedyanova</h1>
+         <p class = "vacancy">Front-end web developer (Beginner)</p>
+         <div class = "ico">
+          <p class = "animation_css"><img src="./assets/img/css.png" alt="css" width = 40></p>
+          <p class = "animation"><img src="./assets/img/kisspng-web-development-javascript-logo-java-plum-5ad58e75ec4c34.4985261315239450779679.png" alt="js" width = 40></p>
+          <p class = "animation_html"><img src="./assets/img/pngegg.png" alt="HTML" width = 40></p>
+          
+         </div>
+        </div>
+       <div>
+         <img alt = "my photo" src = "./assets/img/20180825_183933.jpg" title = "Toma Fedyanova" width = 250 class = "photo">
+        </div>
+      </section>
+      <section class ="contacts">
+        <h2 id = "contacts">Contacts</h2>
+        <ul class="contact__info">
+          <li>Discord nikname: rs-school: toma-fedyanova (@toma-fedyanova).</li>
+          <li><a href = "#">Email: toma-fedyanova@mail.ru</a></li>
+        </ul>
+      </section>
+      <section id = "about">
+        <h2>About me</h2>
+        <p> I am from Russia, Khabarovsk.</p>
+        <p> I am 38 years old. My work includes analis and conclusion of an expert of forensic economic expertise. I am ready to move</p>
+      </section>
+      <section id = "skills__hard">
+        <h2>Hard skills</h2>
+        <ol class = "ordered">
+          <li>HTML</li> 
+          <li>SASS CSS</li>
+          <li>Github git</li>
+          <li>Figma</li>
+          <li>Javascript(basic)</li>
+        </ol>
+      </section>
+      <section class = "skills__soft">
+        <h2>Soft skills</h2>
+        <ul>
+          <li> Communication,</li>
+          <li>Self-Awareness,</li>
+          <li>Patience,</li>
+          <li>Open-Mindedness,</li>
+          <li>Problem-Solving,</li>
+          <li>Time Management,</li>
+          <li>Teamwork.</li>
+        </ul>
+      </section>
+      <section class = "code">
+        <h2>Example of code</h2>
+        <pre>
+        let count = (function() {
+          let num = 1;
+            return function() {
+            console.log(num);
+            num++;
+            }
+          })();
+        </pre>
+      </section>
+      <section id = "works">
+        <h2>My work</h2>
+        <div class="work">
+          <img class = "landing" src = "./assets/img/langing.png" alt = "online zoo landing" width = 250>
+          <p><a href = "https://codepen.io/toma-fedyanova/pen/zYjoKPW" class = "zoo">Online zoo landing</a></p>
+        </div>
+      </section>
+      <section id = "education">
+        <h2>My educations</h2>
+        <ol>
+          <li>
+            Hight educations:
+            <ul>
+              <li class = "education__variant">Tihookeanskiy university: economic</li>
+              <li class = "education__variant">Tihookeanskiy university: lower</li>
+            </ul>
+          </li>
+          <li>
+            Curses:
+            <ul>
+              <li class = "education__variant">Stepik: <br>(Web-tehnologis - start; The equation; Scientific thinking)</li>
+              <li class = "education__variant">CodeBasics:<br>(HTML; CSS)</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+      <section class="english">
+        <h2>Lanquages</h2>
+        <p>Russia - native lanquage</p>
+        <p>My english level - Intermediate</p>
+        <img src = "./assets/img/cvpaint.png" alt = "picture">
+        <a class = "link" href = "https://www.efset.org/quick-check/">EF test</a>
+      </section>
+    </main>
+    <footer>
+      <a href = "https://github.com/toma-fedyanova/" class = "github"><img src="https://pngimg.com/uploads/github/github_PNG88.png" width = 40  alt = "github icon">
+      my GITHUB</a>
+      <p>2022</p>
+      <a href = "https://rs.school/js/"><img src = "https://rs.school/images/rs_school_js.svg" width = 150 alt = "icon rsschool"></a>
+    </footer>
+  </body>
 </html>
